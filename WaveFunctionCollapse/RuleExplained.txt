@@ -1,0 +1,16 @@
+A rules document states what tiles the prorgam should load and their properties
+
+It begins with a list of all the tile names, for instance:
+up,down,left,right...etc
+
+Then continues with a new line for each tile in the format "rule,image,name,u,r,d,l"
+rule: state that you are declaring a rule
+image: the name of the image to be loaded e.g. "UP.png"
+name: the name of the tile taken from the already input tile names list
+then which side type it is for up,right,down and left respectively
+
+You can also add lines for a rotation of an already made tile in the format "rotation,index,name,rot"
+rotation: state that you are creating a tile that is a rotation of a predefined tile
+index: the index of the tile that is to be rotated based on the order the tiles are created (starting from 0)
+name: the name of the new tile
+rotation: how many times to rotate the tile 90 degrees clockwise

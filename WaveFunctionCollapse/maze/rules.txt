@@ -1,0 +1,16 @@
+corner,corner2,corner3,corner4,end,end2,end3,end4,straight,straight2,t,t2,t3,t4,wall
+rule,corner,corner.png,0,1,1,0
+rule,end,end.png,0,0,1,0
+rule,straight,straight.png,1,0,1,0
+rule,t,t.png,1,1,1,0
+rule,wall,wall.png,0,0,0,0
+rotation,0,corner2,1
+rotation,0,corner3,2
+rotation,0,corner4,3
+rotation,1,end2,1
+rotation,1,end3,2
+rotation,1,end4,3
+rotation,2,straight2,1
+rotation,3,t2,1
+rotation,3,t3,2
+rotation,3,t4,3

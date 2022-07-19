@@ -1,0 +1,6 @@
+up,down,left,right,blank
+rule,up,UP.png,1,1,0,1
+rule,blank,BLANK.png,0,0,0,0
+rotation,0,right,1
+rotation,0,down,2
+rotation,0,left,3
