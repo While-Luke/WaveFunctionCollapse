@@ -1,4 +1,4 @@
-A rules document states what tiles the prorgam should load and their properties
+A rules document states what tiles the program should load and their properties
 
 It begins with a list of all the tile names, for instance:
 up,down,left,right...etc
