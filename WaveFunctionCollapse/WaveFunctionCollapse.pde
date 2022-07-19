@@ -8,9 +8,9 @@ final int WINDOW_HEIGHT = 800;
 final int GRID_WIDTH = 40;
 final int GRID_HEIGHT = 40;
 
-String folder = "maze";
-boolean instant = false;
-boolean step = true;
+String folder = "maze"; //Change this variable to the name of the folder you would like to use
+boolean instant = false; //If true, will completely fill in the board before displaying
+boolean step = true; //If true, will gradually fill in the board with each frame, else only fills one square per mouse click
 
 int tileW = WINDOW_WIDTH / GRID_WIDTH;
 int tileH = WINDOW_HEIGHT / GRID_HEIGHT;
